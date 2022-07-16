@@ -1,7 +1,6 @@
-import butto from '../../assets/img/Notifiction-icon.svg'
+import butto from '../../assets/img/Notifiction-icon.svg';
+import './styles.css';
 
-
-import './styles.css'
 function NotifictionButton() {
   return (
     <div className="dsmeta-red-btn">
@@ -10,4 +9,4 @@ function NotifictionButton() {
   )
 }
 
-export default NotifictionButton
+export default NotifictionButton;
